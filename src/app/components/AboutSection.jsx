@@ -36,6 +36,7 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Fundamentals of Reinforcement Learning, University of Alberta</li>
         <li>Salesforce Administrator, SmartInternz</li>
+        <li>Basics of Python, Infosys Springboard</li>
       </ul>
     ),
   },
