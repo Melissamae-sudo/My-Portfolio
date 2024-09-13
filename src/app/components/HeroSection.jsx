@@ -3,7 +3,6 @@ import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
-import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -22,9 +21,11 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "Melissa",
+                "Melissa Mae",
                 1000,
                 "a Web Developer",
+                1000,
+                "a UI/UX Designer",
                 1000,
               ]}
               wrapper="span"
@@ -36,20 +37,23 @@ const HeroSection = () => {
             Barbie liked this website.
           </p>
           <div>
-            <Link
-              href="/#contact"
+            <a
+              href="https://www.linkedin.com/in/your-linkedin-profile" // Replace with your LinkedIn URL
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
+              target="_blank" // Open LinkedIn in a new tab
+              rel="noopener noreferrer"
             >
               Hire Me
-            </Link>
-            <Link
-              href="/"
+            </a>
+            <a
+              href="/images/resumeport.pdf"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+              download
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Download CV
               </span>
-            </Link>
+            </a>
           </div>
         </motion.div>
         <motion.div
@@ -65,6 +69,8 @@ const HeroSection = () => {
               className="absolute transform rounded-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={500}
               height={500}
+              priority={true}
+              loading="eager"
             />
           </div>
         </motion.div>
