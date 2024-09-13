@@ -24,7 +24,7 @@ const projectsData = [
     id: 3,
     title: "Pick Me",
     description: "Helps users create, organize, and manage tickets for issues efficiently, making it easy to track and resolve problems",
-    image: "/images/ticket.jpg",
+    image: "/images/ticket.png",
     tag: ["Projects"],
     gitUrl: "https://github.com/Melissamae-sudo/Pick-Me-App",
   },
