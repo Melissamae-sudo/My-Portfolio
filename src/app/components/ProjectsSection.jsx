@@ -1,10 +1,8 @@
-"use client";
+"use client"; 
 import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
-
-
 
 const projectsData = [
   {
@@ -12,25 +10,28 @@ const projectsData = [
     title: "ATM Simulator",
     description: "A Java application that credits and debits money on a dummy Bank Account",
     image: "/images/atm.png",
-    tag: ["All", "Web"],
+    tag: ["Projects"],
   },
   {
     id: 2,
-    title: "Automated Chatbot using WDG Automation",
-    description: "Developed a chatbot that responds to user queries based on the trained knowledge base",
-    image: "/images/iibm.png",
-    tag: ["All", "Web"],
+    title: "A Cinema Booking App Design",
+    description: "A cinema booking app design featuring a user-friendly interface allows users to reserve seats for movies, view showtimes, and obtain digital tickets seamlessly.",
+    image: "/images/cinema.jpeg",
+    tag: ["Projects"],
+    figmaUrl: "https://www.figma.com/community/file/1413802606243073240/bookmovies" // Add Figma URL here
   },
   {
     id: 3,
-    title: "Data Transfer from PDF to Text File using WDG automation",
-    description: "Automates the process of extracting specific data from PDF file and saving it to text file(data extraction and processing",
-    image: "/images/gbm.jpg",
-    tag: ["All", "Web"],
+    title: "Pick Me",
+    description: "Helps users create, organize, and manage tickets for issues efficiently, making it easy to track and resolve problems",
+    image: "/images/ticket.jpg",
+    tag: ["Projects"],
+    gitUrl: "https://github.com/Melissamae-sudo/Pick-Me-App",
   },
 ];
+
 const ProjectsSection = () => {
-  const [tag, setTag] = useState("All");
+  const [tag, setTag] = useState("Projects");
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -55,18 +56,8 @@ const ProjectsSection = () => {
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
           onClick={handleTagChange}
-          name="All"
-          isSelected={tag === "All"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Projects"
+          isSelected={tag === "Projects"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
@@ -85,6 +76,7 @@ const ProjectsSection = () => {
               imgUrl={project.image}
               gitUrl={project.gitUrl}
               previewUrl={project.previewUrl}
+              figmaUrl={project.figmaUrl} 
             />
           </motion.li>
         ))}
