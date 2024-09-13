@@ -28,6 +28,14 @@ const projectsData = [
     tag: ["Projects"],
     gitUrl: "https://github.com/Melissamae-sudo/Pick-Me-App",
   },
+  {
+    id: 4,
+    title: "Do Me List",
+    description: " Track and complete to-do items with a clear overview of priorities and progress",
+    image: "/images/dome.png",
+    tag: ["Projects"],
+    gitUrl: "https://github.com/Melissamae-sudo/Do-Me-List",
+  },
 ];
 
 const ProjectsSection = () => {
