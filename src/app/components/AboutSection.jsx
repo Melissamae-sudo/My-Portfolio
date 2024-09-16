@@ -9,8 +9,9 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li className="text-blue-400">UI/UX Designing</li>
-        <li className="text-blue-300">Figma</li>
+        <li className="text-blue-400">User Interface Designing</li>
+        <li className="text-blue-300">User Experience</li>
+        <li className="text-blue-200">Figma(Software)</li>
         <li className="text-purple-500">JavaScript</li>
         <li className="text-purple-400">NextJs</li>
         <li className="text-pink-300">Tailwind CSS</li>
