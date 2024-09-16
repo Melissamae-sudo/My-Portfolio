@@ -38,7 +38,7 @@ const HeroSection = () => {
           </p>
           <div>
             <a
-              href="www.linkedin.com/in/melissa-mae-dsouza-074127246/"
+              href="https://in.linkedin.com/in/melissa-mae-dsouza-074127246"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
               target="_blank"
               rel="noopener noreferrer"
