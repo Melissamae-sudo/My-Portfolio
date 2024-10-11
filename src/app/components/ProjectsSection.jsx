@@ -38,9 +38,9 @@ const projectsData = [
   },
     {
     id: 5,
-    title: "Mae",
+    title: "Mae Music",
     description: "A fictional music streaming company providing an ad-free platform with millions of songs. It converts visitors into signups for the ad-free platform",
-    image: "/images/dome.png",
+    image: "/images/Screenshot 2024-10-06 124655.png",
     tag: ["Projects"],
     gitUrl: "https://github.com/Melissamae-sudo/Do-Me-List",
   },
