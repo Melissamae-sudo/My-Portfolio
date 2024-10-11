@@ -34,6 +34,14 @@ const projectsData = [
     description: " Track and complete to-do items with a clear overview of priorities and progress",
     image: "/images/dome.png",
     tag: ["Projects"],
+    gitUrl: "https://www.figma.com/proto/pUmVliyIWpckLc36Z4iDFX/Mae-Music?page-id=0%3A1&node-id=64-45&node-type=canvas&viewport=472%2C110%2C0.06&t=bwVBtfl57hCrl2ZZ-1&scaling=scale-down&content-scaling=fixed",
+  },
+    {
+    id: 5,
+    title: "Mae",
+    description: "A fictional music streaming company providing an ad-free platform with millions of songs. It converts visitors into signups for the ad-free platform",
+    image: "/images/dome.png",
+    tag: ["Projects"],
     gitUrl: "https://github.com/Melissamae-sudo/Do-Me-List",
   },
 ];
