@@ -16,7 +16,7 @@ const projectsData = [
     id: 2,
     title: "A Cinema Booking App Design",
     description: "A cinema booking app design featuring a user-friendly interface allows users to reserve seats for movies, view showtimes, and obtain digital tickets seamlessly using Figma",
-    image: "/images/cinema.jpeg",
+    image: "/images/1727548237623.jpg",
     tag: ["Projects"],
     figmaUrl: "https://www.figma.com/community/file/1413802606243073240/bookmovies"
   },
