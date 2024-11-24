@@ -41,7 +41,7 @@ const TAB_DATA = [
         <li className="text-blue-300">The Complete Guide to UI/UX Wireframing, Alison</li>
         <li className="text-blue-400">A Complete Guide to User Experience Design, Alison</li>
         <li className="text-purple-500" >Fundamentals of Reinforcement Learning, University of Alberta</li>
-        <li className="text-purple-400">Fundamentals of Reinforcement Learning, University of Alberta</li>
+        <li className="text-purple-400">Fundamentals of User Experience, Google</li>
         <li className="text-pink-300">Salesforce Administrator, SmartInternz</li>
         <li className="text-pink-400">Basics of Python, Infosys Springboard</li>
       </ul>
