@@ -46,7 +46,7 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "An Outfit generator",
+    title: "ClosetPop- An Outfit generator",
     description: "A dynamic outfit generator built in Figma, featuring a model and customizable outfit options. Designed to help users visualize and experiment with styles, making it easy to find the perfect fit",
     image: "/images/Screenshot 2024-11-24 222842.png",
     tag: ["Projects"],
