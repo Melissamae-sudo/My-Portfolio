@@ -66,7 +66,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-           I’m passionate about people and I care about improving the quality of their lives through creating useful and usable products that everybody can enjoy. I’m a UI/UX designer who loves solving problems through effective design solution. Highly creative and detail-oriented in UI/UX designing.  Whether it's through developing new technology solutions or tackling fresh challenges, I'm dedicated to learning and making a difference. Let's connect and explore how we can learn from each other and work together to innovate and create lasting, positive change in the world!</p>
+          I’m Melissa Mae Dsouza, a UI/UX designer passionate about crafting intuitive, user-friendly designs. With a background in computer science and experience in tools like Figma and Next.js, I bridge creativity with functionality. I’ve worked on projects like Magicflip and Pick Me, designing experiences that resonate. Obsessed with learning and detail, I aim to solve problems beautifully. When I’m not designing, you’ll find me singing or binge-watching my favorite shows. I'm dedicated to learning and making a difference. Let's connect and explore how we can learn from each other and work together to innovate and create lasting, positive change in the world!</p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}
