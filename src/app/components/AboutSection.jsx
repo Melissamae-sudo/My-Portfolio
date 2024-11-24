@@ -66,7 +66,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          Passionate about creating meaningful impacts, I'm constantly learning and growing in critical thinking and creative problem-solving. I'm always on the lookout for opportunities to apply my evolving skill set in innovative ways. Whether it's through developing new technology solutions or tackling fresh challenges, I'm dedicated to learning and making a difference. Let's connect and explore how we can learn from each other and work together to innovate and create lasting, positive change in the world!</p>
+           I’m passionate about people and I care about improving the quality of their lives through creating useful and usable products that everybody can enjoy. I’m a UI/UX designer who loves solving problems through effective design solution. Highly creative and detail-oriented in UI/UX designing.  Whether it's through developing new technology solutions or tackling fresh challenges, I'm dedicated to learning and making a difference. Let's connect and explore how we can learn from each other and work together to innovate and create lasting, positive change in the world!</p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}
