@@ -52,6 +52,14 @@ const projectsData = [
     tag: ["Projects"],
     gitUrl: "https://www.figma.com/design/XXKzosTCv7ppZrzMdwFTGy/outfit-generator?node-id=0-1&t=2MBb5RRm1oSa6dSU-1",
   },
+   {
+    id: 7,
+    title: "Advent Calendar",
+    description: "Create a magical digital advent calendar and turn the holidays into 24 days of surprises! Perfect for long-distance friends, family, or your significant other, this personalized calendar is alternative to anything store-bought. Fill each day with unique surprises, thoughtful messages, or creative treats that will bring joy and connection throughout the season.",
+    image: "/images/Screenshot 2024-11-27 214733.png",
+    tag: ["Projects"],
+    gitUrl: "https://www.figma.com/community/file/1443640849966927197/advent-calender-comm",
+  },
 ];
 
 const ProjectsSection = () => {
